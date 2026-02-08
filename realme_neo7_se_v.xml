@@ -2,8 +2,8 @@
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <remote fetch="https://github.com/realme-kernel-opensource" name="origin"/>
-  <!-- <project remote="origin" name="android_kernel_common_realme_mt6899" path="kernel_platform/common" revision="realme/mt6899_v_15.0.0_neo7se"> -->
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <!-- <project remote="origin" name="android_kernel_common_realme_mt6899" path="kernel_platform/common" revision="realme/mt6899_v_15.0.0_neo7SE"> -->
   <project remote="origin" name="realme_neo7se-AndroidV-kernel-source" path="kernel-6.6" revision="master">
     <linkfile dest="kernel_platform/common" src="."/>
   </project>
