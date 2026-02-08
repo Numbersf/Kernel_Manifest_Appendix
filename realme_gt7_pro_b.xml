@@ -2,8 +2,8 @@
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <remote fetch="https://github.com/realme-kernel-opensource" name="origin"/>
-  <!-- <project remote="origin" name="android_kernel_common_realme_sm8750" path="kernel_platform/common" revision="realme/sm8750_b_16.0.0_GT7pro"> -->
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <!-- <project remote="origin" name="android_kernel_common_realme_sm8750" path="kernel_platform/common" revision="realme/sm8750_b_16.0.0_GT7pro"> -->
   <project remote="origin" name="realme_GT7pro-AndroidB-common-source" path="kernel_platform/common" revision="master">
     <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
   </project>
