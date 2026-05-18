@@ -4,7 +4,7 @@
   <remote fetch="https://github.com/oppo-source" name="origin"/>
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="origin" name="android_kernel_oppo_mt6896" path="kernel-6.12" revision="oppo/mt6896_b_16.0_reno11">
-    <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
+    <linkfile dest="kernel_platform/common" src="."/>
   </project>
   <project remote="origin" name="android_kernel_modules_oppo_mt6896" path="./" revision="oppo/mt6896_b_16.0_reno11"/>
   <project remote="clo-la" name="kernel/common-modules/trusty" path="kernel_platform/common-modules/trusty" revision="3408234902a6e80b1ecda64a69c4e469a6216441" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel"/>
