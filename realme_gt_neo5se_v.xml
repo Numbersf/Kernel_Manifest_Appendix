@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
   <default remote="clo" revision="kernel.build.lnx.1.0" sync-j="8"/>
-  <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
+  <remote fetch="https://github.com/realme-kernel-opensource" name="origin"/>
   <!-- <project remote="origin" name="android_kernel_common_realme_sm7475" path="kernel_platform/common" revision="realme/sm7475_v_15.0.0_GT_Neo5SE"> -->
   <project remote="origin" name="realme_gt_neo5se-AndroidV-common-source" path="kernel_platform/common" revision="master"/>
   <project remote="origin" name="realme_gt_neo5se-AndroidV-kernel-source" path="kernel_platform/msm-kernel" revision="master">
